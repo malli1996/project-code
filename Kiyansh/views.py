@@ -3,6 +3,7 @@ from django.shortcuts import render
 from django.core.mail import send_mail
 
 # Create your views here.
+# hello world
 def home(request):
     # home view.
     if request.method == 'POST':
